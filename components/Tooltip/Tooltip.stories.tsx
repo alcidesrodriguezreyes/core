@@ -2,7 +2,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import Tooltip from "./index";
 
 const meta: Meta<typeof Tooltip> = {
-    title: "Tooltip",
+    title: "Components/Tooltip",
     component: Tooltip,
 };
 
