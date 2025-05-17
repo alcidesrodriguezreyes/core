@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import CountryItem from './index';
+import { countriesEarnings } from "@/mocks/countries";
+const country = countriesEarnings[0];
+const country2 = countriesEarnings[1];
 
 const meta: Meta<typeof CountryItem> = {
   title: 'Components/CountryItem',
@@ -11,12 +14,12 @@ type Story = StoryObj<typeof CountryItem>;
 
 export const Default: Story = {
   args: {
-    value: {
-      id: 1,
-      name: 'Country',
-      flag: '/images/flag.png',
-      price: 100,
-      percentage: 50,
-    },
+    value: country,
+  },
+};
+
+export const SecondCountry: Story = {
+  args: {
+    value: country2,
   },
 };
