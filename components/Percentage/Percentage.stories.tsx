@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Percentage from '../components/Percentage';
+import Percentage from '.';
 
 const meta = {
   title: 'Components/Percentage',

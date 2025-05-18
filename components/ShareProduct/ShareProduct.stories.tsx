@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import ShareProduct from '../components/ShareProduct';
+import ShareProduct from './index';
 
 const meta = {
   title: 'Components/ShareProduct',
